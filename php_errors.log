@@ -1,0 +1,634 @@
+[24-Jun-2017 13:17:59 UTC] PHP Warning:  require_once(./conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:17:59 UTC] PHP Stack trace:
+[24-Jun-2017 13:17:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:17:59 UTC] PHP Fatal error:  require_once(): Failed opening required './conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:17:59 UTC] PHP Stack trace:
+[24-Jun-2017 13:17:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:18:07 UTC] PHP Warning:  require_once(./conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:18:07 UTC] PHP Stack trace:
+[24-Jun-2017 13:18:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:18:07 UTC] PHP Fatal error:  require_once(): Failed opening required './conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:18:07 UTC] PHP Stack trace:
+[24-Jun-2017 13:18:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:18:40 UTC] PHP Fatal error:  Call to undefined function get_db_connect() in /home/ubuntu/workspace/adviser/controller/login.php on line 24
+[24-Jun-2017 13:18:40 UTC] PHP Stack trace:
+[24-Jun-2017 13:18:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:19:04 UTC] PHP Warning:  require_once(./model/common.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 18
+[24-Jun-2017 13:19:04 UTC] PHP Stack trace:
+[24-Jun-2017 13:19:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:19:04 UTC] PHP Fatal error:  require_once(): Failed opening required './model/common.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 18
+[24-Jun-2017 13:19:04 UTC] PHP Stack trace:
+[24-Jun-2017 13:19:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:19:25 UTC] PHP Warning:  require_once(./conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:19:25 UTC] PHP Stack trace:
+[24-Jun-2017 13:19:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:19:25 UTC] PHP Fatal error:  require_once(): Failed opening required './conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:19:25 UTC] PHP Stack trace:
+[24-Jun-2017 13:19:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:19:26 UTC] PHP Warning:  require_once(./conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:19:26 UTC] PHP Stack trace:
+[24-Jun-2017 13:19:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:19:26 UTC] PHP Fatal error:  require_once(): Failed opening required './conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:19:26 UTC] PHP Stack trace:
+[24-Jun-2017 13:19:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:19:26 UTC] PHP Warning:  require_once(./conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:19:26 UTC] PHP Stack trace:
+[24-Jun-2017 13:19:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:19:26 UTC] PHP Fatal error:  require_once(): Failed opening required './conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:19:26 UTC] PHP Stack trace:
+[24-Jun-2017 13:19:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:19:27 UTC] PHP Warning:  require_once(./conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:19:27 UTC] PHP Stack trace:
+[24-Jun-2017 13:19:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:19:27 UTC] PHP Fatal error:  require_once(): Failed opening required './conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:19:27 UTC] PHP Stack trace:
+[24-Jun-2017 13:19:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:20:54 UTC] PHP Warning:  require_once(./conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:20:54 UTC] PHP Stack trace:
+[24-Jun-2017 13:20:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:20:54 UTC] PHP Fatal error:  require_once(): Failed opening required './conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:20:54 UTC] PHP Stack trace:
+[24-Jun-2017 13:20:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:21:14 UTC] PHP Warning:  require_once(./conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:21:14 UTC] PHP Stack trace:
+[24-Jun-2017 13:21:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:21:14 UTC] PHP Fatal error:  require_once(): Failed opening required './conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:21:14 UTC] PHP Stack trace:
+[24-Jun-2017 13:21:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:02 UTC] PHP Warning:  require_once(./conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:02 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:02 UTC] PHP Fatal error:  require_once(): Failed opening required './conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:02 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:11 UTC] PHP Warning:  require_once(././conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:11 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:11 UTC] PHP Fatal error:  require_once(): Failed opening required '././conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:11 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:13 UTC] PHP Warning:  require_once(././conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:13 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:13 UTC] PHP Fatal error:  require_once(): Failed opening required '././conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:13 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:14 UTC] PHP Warning:  require_once(././conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:14 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:14 UTC] PHP Fatal error:  require_once(): Failed opening required '././conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:14 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:21 UTC] PHP Warning:  require_once(../conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:21 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:21 UTC] PHP Fatal error:  require_once(): Failed opening required '../conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:21 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:22 UTC] PHP Warning:  require_once(../conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:22 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:22 UTC] PHP Fatal error:  require_once(): Failed opening required '../conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:22 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:23 UTC] PHP Warning:  require_once(../conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:23 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:23 UTC] PHP Fatal error:  require_once(): Failed opening required '../conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:23 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:23 UTC] PHP Warning:  require_once(../conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:23 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:23 UTC] PHP Fatal error:  require_once(): Failed opening required '../conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:23 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:23 UTC] PHP Warning:  require_once(../conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:23 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:23 UTC] PHP Fatal error:  require_once(): Failed opening required '../conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:23 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:23 UTC] PHP Warning:  require_once(../conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:23 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:23 UTC] PHP Fatal error:  require_once(): Failed opening required '../conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:23 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:24 UTC] PHP Warning:  require_once(../conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:24 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:24 UTC] PHP Fatal error:  require_once(): Failed opening required '../conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:24 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:24 UTC] PHP Warning:  require_once(../conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:24 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:24 UTC] PHP Fatal error:  require_once(): Failed opening required '../conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:24 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:24 UTC] PHP Warning:  require_once(../conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:24 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:24 UTC] PHP Fatal error:  require_once(): Failed opening required '../conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:24 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:25 UTC] PHP Warning:  require_once(../conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:25 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:25 UTC] PHP Fatal error:  require_once(): Failed opening required '../conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:25 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:25 UTC] PHP Warning:  require_once(../conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:25 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:25 UTC] PHP Fatal error:  require_once(): Failed opening required '../conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:25 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:25 UTC] PHP Warning:  require_once(../conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:25 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:25 UTC] PHP Fatal error:  require_once(): Failed opening required '../conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:25 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:26 UTC] PHP Warning:  require_once(../conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:26 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:26 UTC] PHP Fatal error:  require_once(): Failed opening required '../conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:26 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:26 UTC] PHP Warning:  require_once(../conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:26 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:26 UTC] PHP Fatal error:  require_once(): Failed opening required '../conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:26 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:28 UTC] PHP Warning:  require_once(../conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:28 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:28 UTC] PHP Fatal error:  require_once(): Failed opening required '../conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:28 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:28 UTC] PHP Warning:  require_once(../conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:28 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:28 UTC] PHP Fatal error:  require_once(): Failed opening required '../conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:28 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:28 UTC] PHP Warning:  require_once(../conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:28 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:28 UTC] PHP Fatal error:  require_once(): Failed opening required '../conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:28 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:28 UTC] PHP Warning:  require_once(../conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:28 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:28 UTC] PHP Fatal error:  require_once(): Failed opening required '../conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:28 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:35 UTC] PHP Warning:  require_once(../conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:35 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:23:35 UTC] PHP Fatal error:  require_once(): Failed opening required '../conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:23:35 UTC] PHP Stack trace:
+[24-Jun-2017 13:23:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:24:18 UTC] PHP Warning:  require_once(./conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:24:18 UTC] PHP Stack trace:
+[24-Jun-2017 13:24:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:24:18 UTC] PHP Fatal error:  require_once(): Failed opening required './conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:24:18 UTC] PHP Stack trace:
+[24-Jun-2017 13:24:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:24:25 UTC] PHP Warning:  require_once(./conf/const.php ): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:24:25 UTC] PHP Stack trace:
+[24-Jun-2017 13:24:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:24:25 UTC] PHP Fatal error:  require_once(): Failed opening required './conf/const.php ' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:24:25 UTC] PHP Stack trace:
+[24-Jun-2017 13:24:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:25:48 UTC] PHP Warning:  require_once(./conf/const.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:25:48 UTC] PHP Stack trace:
+[24-Jun-2017 13:25:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:25:48 UTC] PHP Fatal error:  require_once(): Failed opening required './conf/const.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:25:48 UTC] PHP Stack trace:
+[24-Jun-2017 13:25:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:25:49 UTC] PHP Warning:  require_once(./conf/const.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:25:49 UTC] PHP Stack trace:
+[24-Jun-2017 13:25:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:25:49 UTC] PHP Fatal error:  require_once(): Failed opening required './conf/const.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:25:49 UTC] PHP Stack trace:
+[24-Jun-2017 13:25:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:25:55 UTC] PHP Warning:  require_once(./adviser/onf/const.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:25:55 UTC] PHP Stack trace:
+[24-Jun-2017 13:25:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:25:55 UTC] PHP Fatal error:  require_once(): Failed opening required './adviser/onf/const.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:25:55 UTC] PHP Stack trace:
+[24-Jun-2017 13:25:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:25:56 UTC] PHP Warning:  require_once(./adviser/onf/const.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:25:56 UTC] PHP Stack trace:
+[24-Jun-2017 13:25:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:25:56 UTC] PHP Fatal error:  require_once(): Failed opening required './adviser/onf/const.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:25:56 UTC] PHP Stack trace:
+[24-Jun-2017 13:25:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:25:57 UTC] PHP Warning:  require_once(./adviser/onf/const.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:25:57 UTC] PHP Stack trace:
+[24-Jun-2017 13:25:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:25:57 UTC] PHP Fatal error:  require_once(): Failed opening required './adviser/onf/const.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:25:57 UTC] PHP Stack trace:
+[24-Jun-2017 13:25:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:26:03 UTC] PHP Warning:  require_once(/adviser/onf/const.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:26:03 UTC] PHP Stack trace:
+[24-Jun-2017 13:26:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:26:03 UTC] PHP Fatal error:  require_once(): Failed opening required '/adviser/onf/const.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:26:03 UTC] PHP Stack trace:
+[24-Jun-2017 13:26:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:26:04 UTC] PHP Warning:  require_once(/adviser/onf/const.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:26:04 UTC] PHP Stack trace:
+[24-Jun-2017 13:26:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:26:04 UTC] PHP Fatal error:  require_once(): Failed opening required '/adviser/onf/const.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:26:04 UTC] PHP Stack trace:
+[24-Jun-2017 13:26:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:26:10 UTC] PHP Warning:  require_once(adviser/onf/const.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:26:10 UTC] PHP Stack trace:
+[24-Jun-2017 13:26:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:26:10 UTC] PHP Fatal error:  require_once(): Failed opening required 'adviser/onf/const.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:26:10 UTC] PHP Stack trace:
+[24-Jun-2017 13:26:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:26:11 UTC] PHP Warning:  require_once(adviser/onf/const.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:26:11 UTC] PHP Stack trace:
+[24-Jun-2017 13:26:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:26:11 UTC] PHP Fatal error:  require_once(): Failed opening required 'adviser/onf/const.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:26:11 UTC] PHP Stack trace:
+[24-Jun-2017 13:26:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:26:11 UTC] PHP Warning:  require_once(adviser/onf/const.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:26:11 UTC] PHP Stack trace:
+[24-Jun-2017 13:26:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:26:11 UTC] PHP Fatal error:  require_once(): Failed opening required 'adviser/onf/const.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:26:11 UTC] PHP Stack trace:
+[24-Jun-2017 13:26:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:26:12 UTC] PHP Warning:  require_once(adviser/onf/const.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:26:12 UTC] PHP Stack trace:
+[24-Jun-2017 13:26:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:26:12 UTC] PHP Fatal error:  require_once(): Failed opening required 'adviser/onf/const.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:26:12 UTC] PHP Stack trace:
+[24-Jun-2017 13:26:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:26:12 UTC] PHP Warning:  require_once(adviser/onf/const.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:26:12 UTC] PHP Stack trace:
+[24-Jun-2017 13:26:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:26:12 UTC] PHP Fatal error:  require_once(): Failed opening required 'adviser/onf/const.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:26:12 UTC] PHP Stack trace:
+[24-Jun-2017 13:26:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:26:12 UTC] PHP Warning:  require_once(adviser/onf/const.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:26:12 UTC] PHP Stack trace:
+[24-Jun-2017 13:26:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:26:12 UTC] PHP Fatal error:  require_once(): Failed opening required 'adviser/onf/const.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:26:12 UTC] PHP Stack trace:
+[24-Jun-2017 13:26:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:26:12 UTC] PHP Warning:  require_once(adviser/onf/const.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:26:12 UTC] PHP Stack trace:
+[24-Jun-2017 13:26:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:26:12 UTC] PHP Fatal error:  require_once(): Failed opening required 'adviser/onf/const.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:26:12 UTC] PHP Stack trace:
+[24-Jun-2017 13:26:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:26:12 UTC] PHP Warning:  require_once(adviser/onf/const.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:26:12 UTC] PHP Stack trace:
+[24-Jun-2017 13:26:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:26:12 UTC] PHP Fatal error:  require_once(): Failed opening required 'adviser/onf/const.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:26:12 UTC] PHP Stack trace:
+[24-Jun-2017 13:26:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:26:36 UTC] PHP Warning:  require_once(./conf/const.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:26:36 UTC] PHP Stack trace:
+[24-Jun-2017 13:26:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:26:36 UTC] PHP Fatal error:  require_once(): Failed opening required './conf/const.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:26:36 UTC] PHP Stack trace:
+[24-Jun-2017 13:26:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:26:37 UTC] PHP Warning:  require_once(./conf/const.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:26:37 UTC] PHP Stack trace:
+[24-Jun-2017 13:26:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:26:37 UTC] PHP Fatal error:  require_once(): Failed opening required './conf/const.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:26:37 UTC] PHP Stack trace:
+[24-Jun-2017 13:26:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:26:37 UTC] PHP Warning:  require_once(./conf/const.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:26:37 UTC] PHP Stack trace:
+[24-Jun-2017 13:26:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:26:37 UTC] PHP Fatal error:  require_once(): Failed opening required './conf/const.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:26:37 UTC] PHP Stack trace:
+[24-Jun-2017 13:26:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:26:37 UTC] PHP Warning:  require_once(./conf/const.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:26:37 UTC] PHP Stack trace:
+[24-Jun-2017 13:26:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:26:37 UTC] PHP Fatal error:  require_once(): Failed opening required './conf/const.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:26:37 UTC] PHP Stack trace:
+[24-Jun-2017 13:26:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:26:38 UTC] PHP Warning:  require_once(./conf/const.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:26:38 UTC] PHP Stack trace:
+[24-Jun-2017 13:26:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:26:38 UTC] PHP Fatal error:  require_once(): Failed opening required './conf/const.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:26:38 UTC] PHP Stack trace:
+[24-Jun-2017 13:26:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:28:33 UTC] PHP Warning:  require_once(./conf/const.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:28:33 UTC] PHP Stack trace:
+[24-Jun-2017 13:28:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:28:33 UTC] PHP Fatal error:  require_once(): Failed opening required './conf/const.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:28:33 UTC] PHP Stack trace:
+[24-Jun-2017 13:28:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:28:34 UTC] PHP Warning:  require_once(./conf/const.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:28:34 UTC] PHP Stack trace:
+[24-Jun-2017 13:28:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:28:34 UTC] PHP Fatal error:  require_once(): Failed opening required './conf/const.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:28:34 UTC] PHP Stack trace:
+[24-Jun-2017 13:28:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:31:51 UTC] PHP Warning:  require_once(./conf/const.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:31:51 UTC] PHP Stack trace:
+[24-Jun-2017 13:31:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:31:51 UTC] PHP Fatal error:  require_once(): Failed opening required './conf/const.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:31:51 UTC] PHP Stack trace:
+[24-Jun-2017 13:31:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:34:32 UTC] PHP Warning:  require_once(./conf/const.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:34:32 UTC] PHP Stack trace:
+[24-Jun-2017 13:34:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:34:32 UTC] PHP Fatal error:  require_once(): Failed opening required './conf/const.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:34:32 UTC] PHP Stack trace:
+[24-Jun-2017 13:34:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:34:47 UTC] PHP Warning:  require_once(.//conf/const.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:34:47 UTC] PHP Stack trace:
+[24-Jun-2017 13:34:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:34:47 UTC] PHP Fatal error:  require_once(): Failed opening required './/conf/const.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:34:47 UTC] PHP Stack trace:
+[24-Jun-2017 13:34:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:34:48 UTC] PHP Warning:  require_once(.//conf/const.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:34:48 UTC] PHP Stack trace:
+[24-Jun-2017 13:34:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:34:48 UTC] PHP Fatal error:  require_once(): Failed opening required './/conf/const.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:34:48 UTC] PHP Stack trace:
+[24-Jun-2017 13:34:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:36:02 UTC] PHP Warning:  require_once(/./conf/const.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:36:02 UTC] PHP Stack trace:
+[24-Jun-2017 13:36:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:36:02 UTC] PHP Fatal error:  require_once(): Failed opening required '/./conf/const.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:36:02 UTC] PHP Stack trace:
+[24-Jun-2017 13:36:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:36:02 UTC] PHP Warning:  require_once(/./conf/const.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:36:02 UTC] PHP Stack trace:
+[24-Jun-2017 13:36:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:36:02 UTC] PHP Fatal error:  require_once(): Failed opening required '/./conf/const.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:36:02 UTC] PHP Stack trace:
+[24-Jun-2017 13:36:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:36:15 UTC] PHP Warning:  require_once(/../conf/const.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:36:15 UTC] PHP Stack trace:
+[24-Jun-2017 13:36:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:36:15 UTC] PHP Fatal error:  require_once(): Failed opening required '/../conf/const.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 3
+[24-Jun-2017 13:36:15 UTC] PHP Stack trace:
+[24-Jun-2017 13:36:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:36:22 UTC] PHP Warning:  include_once(./view/login_view.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/login.php on line 46
+[24-Jun-2017 13:36:22 UTC] PHP Stack trace:
+[24-Jun-2017 13:36:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[24-Jun-2017 13:36:22 UTC] PHP Warning:  include_once(): Failed opening './view/login_view.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 46
+[24-Jun-2017 13:36:22 UTC] PHP Stack trace:
+[24-Jun-2017 13:36:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[25-Jun-2017 13:25:10 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/adviser/conf/const.php on line 15
+[25-Jun-2017 13:25:10 UTC] PHP Stack trace:
+[25-Jun-2017 13:25:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[25-Jun-2017 14:08:40 UTC] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING) in /home/ubuntu/workspace/adviser/controller/login.php on line 11
+[25-Jun-2017 14:27:08 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/adviser/controller/login.php on line 32
+[25-Jun-2017 14:55:07 UTC] PHP Fatal error:  Call to undefined function get_request_method() in /home/ubuntu/workspace/adviser/controller/login.php on line 10
+[25-Jun-2017 14:55:07 UTC] PHP Stack trace:
+[25-Jun-2017 14:55:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[25-Jun-2017 22:44:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 32
+[25-Jun-2017 22:44:20 UTC] PHP Stack trace:
+[25-Jun-2017 22:44:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[25-Jun-2017 22:44:20 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/login.php:18
+[25-Jun-2017 22:44:20 UTC] PHP   3. include_once() /home/ubuntu/workspace/adviser/controller/itemlist.php:52
+[25-Jun-2017 22:45:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 32
+[25-Jun-2017 22:45:26 UTC] PHP Stack trace:
+[25-Jun-2017 22:45:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[25-Jun-2017 22:45:26 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/login.php:32
+[25-Jun-2017 22:45:26 UTC] PHP   3. include_once() /home/ubuntu/workspace/adviser/controller/itemlist.php:52
+[25-Jun-2017 22:45:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 32
+[25-Jun-2017 22:45:43 UTC] PHP Stack trace:
+[25-Jun-2017 22:45:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[25-Jun-2017 22:45:43 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/login.php:32
+[25-Jun-2017 22:45:43 UTC] PHP   3. include_once() /home/ubuntu/workspace/adviser/controller/itemlist.php:52
+[25-Jun-2017 22:45:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 32
+[25-Jun-2017 22:45:54 UTC] PHP Stack trace:
+[25-Jun-2017 22:45:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[25-Jun-2017 22:45:54 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/login.php:32
+[25-Jun-2017 22:45:54 UTC] PHP   3. include_once() /home/ubuntu/workspace/adviser/controller/itemlist.php:52
+[25-Jun-2017 22:45:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 32
+[25-Jun-2017 22:45:57 UTC] PHP Stack trace:
+[25-Jun-2017 22:45:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[25-Jun-2017 22:45:57 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/login.php:32
+[25-Jun-2017 22:45:57 UTC] PHP   3. include_once() /home/ubuntu/workspace/adviser/controller/itemlist.php:52
+[25-Jun-2017 22:46:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 32
+[25-Jun-2017 22:46:01 UTC] PHP Stack trace:
+[25-Jun-2017 22:46:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[25-Jun-2017 22:46:01 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/login.php:32
+[25-Jun-2017 22:46:01 UTC] PHP   3. include_once() /home/ubuntu/workspace/adviser/controller/itemlist.php:52
+[25-Jun-2017 22:47:36 UTC] PHP Warning:  include_once(/home/ubuntu/workspace/adviser/controller): failed to open stream: Operation now in progress in /home/ubuntu/workspace/adviser/controller/login.php on line 32
+[25-Jun-2017 22:47:36 UTC] PHP Stack trace:
+[25-Jun-2017 22:47:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[25-Jun-2017 22:47:36 UTC] PHP Warning:  include_once(): Failed opening '' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/login.php on line 32
+[25-Jun-2017 22:47:36 UTC] PHP Stack trace:
+[25-Jun-2017 22:47:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[25-Jun-2017 22:49:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 32
+[25-Jun-2017 22:49:41 UTC] PHP Stack trace:
+[25-Jun-2017 22:49:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[25-Jun-2017 22:49:41 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/login.php:37
+[25-Jun-2017 22:49:41 UTC] PHP   3. include_once() /home/ubuntu/workspace/adviser/controller/itemlist.php:52
+[25-Jun-2017 22:49:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 32
+[25-Jun-2017 22:49:46 UTC] PHP Stack trace:
+[25-Jun-2017 22:49:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[25-Jun-2017 22:49:46 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/login.php:37
+[25-Jun-2017 22:49:46 UTC] PHP   3. include_once() /home/ubuntu/workspace/adviser/controller/itemlist.php:52
+[25-Jun-2017 23:15:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 32
+[25-Jun-2017 23:15:58 UTC] PHP Stack trace:
+[25-Jun-2017 23:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[25-Jun-2017 23:15:58 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/login.php:37
+[25-Jun-2017 23:15:58 UTC] PHP   3. include_once() /home/ubuntu/workspace/adviser/controller/itemlist.php:52
+[25-Jun-2017 23:24:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 32
+[25-Jun-2017 23:24:28 UTC] PHP Stack trace:
+[25-Jun-2017 23:24:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[25-Jun-2017 23:24:28 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/login.php:37
+[25-Jun-2017 23:24:28 UTC] PHP   3. include_once() /home/ubuntu/workspace/adviser/controller/itemlist.php:52
+[26-Jun-2017 02:45:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 81
+[26-Jun-2017 02:45:45 UTC] PHP Stack trace:
+[26-Jun-2017 02:45:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[26-Jun-2017 02:45:45 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/login.php:36
+[26-Jun-2017 02:45:45 UTC] PHP   3. include_once() /home/ubuntu/workspace/adviser/controller/itemlist.php:52
+[26-Jun-2017 02:46:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 76
+[26-Jun-2017 02:46:58 UTC] PHP Stack trace:
+[26-Jun-2017 02:46:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[26-Jun-2017 02:46:58 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/login.php:36
+[26-Jun-2017 02:46:58 UTC] PHP   3. include_once() /home/ubuntu/workspace/adviser/controller/itemlist.php:52
+[26-Jun-2017 03:07:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 76
+[26-Jun-2017 03:07:53 UTC] PHP Stack trace:
+[26-Jun-2017 03:07:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[26-Jun-2017 03:07:53 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/login.php:36
+[26-Jun-2017 03:07:53 UTC] PHP   3. include_once() /home/ubuntu/workspace/adviser/controller/itemlist.php:52
+[26-Jun-2017 10:36:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 76
+[26-Jun-2017 10:36:15 UTC] PHP Stack trace:
+[26-Jun-2017 10:36:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[26-Jun-2017 10:36:15 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/login.php:36
+[26-Jun-2017 10:36:15 UTC] PHP   3. include_once() /home/ubuntu/workspace/adviser/controller/itemlist.php:51
+[26-Jun-2017 10:50:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 76
+[26-Jun-2017 10:50:33 UTC] PHP Stack trace:
+[26-Jun-2017 10:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[26-Jun-2017 10:50:33 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/login.php:36
+[26-Jun-2017 10:50:33 UTC] PHP   3. include_once() /home/ubuntu/workspace/adviser/controller/itemlist.php:51
+[26-Jun-2017 10:50:49 UTC] PHP Parse error:  syntax error, unexpected 'INTO' (T_STRING) in /home/ubuntu/workspace/adviser/controller/admin.php on line 32
+[26-Jun-2017 10:50:49 UTC] PHP Stack trace:
+[26-Jun-2017 10:50:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[26-Jun-2017 10:57:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 76
+[26-Jun-2017 10:57:38 UTC] PHP Stack trace:
+[26-Jun-2017 10:57:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/login.php:0
+[26-Jun-2017 10:57:38 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/login.php:36
+[26-Jun-2017 10:57:38 UTC] PHP   3. include_once() /home/ubuntu/workspace/adviser/controller/itemlist.php:51
+[26-Jun-2017 11:34:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 9
+[26-Jun-2017 11:34:25 UTC] PHP Stack trace:
+[26-Jun-2017 11:34:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/itemlist.php:0
+[26-Jun-2017 11:34:25 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/itemlist.php:68
+[26-Jun-2017 11:34:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 76
+[26-Jun-2017 11:34:25 UTC] PHP Stack trace:
+[26-Jun-2017 11:34:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/itemlist.php:0
+[26-Jun-2017 11:34:25 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/itemlist.php:68
+[26-Jun-2017 11:36:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 9
+[26-Jun-2017 11:36:35 UTC] PHP Stack trace:
+[26-Jun-2017 11:36:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/itemlist.php:0
+[26-Jun-2017 11:36:35 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/itemlist.php:65
+[26-Jun-2017 11:37:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 9
+[26-Jun-2017 11:37:29 UTC] PHP Stack trace:
+[26-Jun-2017 11:37:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/itemlist.php:0
+[26-Jun-2017 11:37:29 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/itemlist.php:65
+[26-Jun-2017 11:47:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 9
+[26-Jun-2017 11:47:28 UTC] PHP Stack trace:
+[26-Jun-2017 11:47:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/itemlist.php:0
+[26-Jun-2017 11:47:28 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/itemlist.php:65
+[26-Jun-2017 11:48:26 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 91
+[26-Jun-2017 11:48:26 UTC] PHP Stack trace:
+[26-Jun-2017 11:48:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/itemlist.php:0
+[26-Jun-2017 11:48:29 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 91
+[26-Jun-2017 11:48:29 UTC] PHP Stack trace:
+[26-Jun-2017 11:48:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/itemlist.php:0
+[26-Jun-2017 11:48:59 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 91
+[26-Jun-2017 11:48:59 UTC] PHP Stack trace:
+[26-Jun-2017 11:48:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/itemlist.php:0
+[26-Jun-2017 11:49:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 9
+[26-Jun-2017 11:49:33 UTC] PHP Stack trace:
+[26-Jun-2017 11:49:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/itemlist.php:0
+[26-Jun-2017 11:49:33 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/itemlist.php:65
+[26-Jun-2017 11:49:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 9
+[26-Jun-2017 11:49:36 UTC] PHP Stack trace:
+[26-Jun-2017 11:49:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/itemlist.php:0
+[26-Jun-2017 11:49:36 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/itemlist.php:65
+[26-Jun-2017 11:55:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 9
+[26-Jun-2017 11:55:54 UTC] PHP Stack trace:
+[26-Jun-2017 11:55:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/itemlist.php:0
+[26-Jun-2017 11:55:54 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/itemlist.php:65
+[26-Jun-2017 12:09:15 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/adviser/controller/admin.php on line 23
+[26-Jun-2017 12:32:53 UTC] PHP Fatal error:  Call to undefined function insert_drink_table() in /home/ubuntu/workspace/adviser/controller/admin.php on line 31
+[26-Jun-2017 12:32:53 UTC] PHP Stack trace:
+[26-Jun-2017 12:32:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/admin.php:0
+[26-Jun-2017 12:36:50 UTC] PHP Warning:  require_once(./../model/admin_view.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/admin.php on line 6
+[26-Jun-2017 12:36:50 UTC] PHP Stack trace:
+[26-Jun-2017 12:36:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/admin.php:0
+[26-Jun-2017 12:36:50 UTC] PHP Fatal error:  require_once(): Failed opening required './../model/admin_view.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/admin.php on line 6
+[26-Jun-2017 12:36:50 UTC] PHP Stack trace:
+[26-Jun-2017 12:36:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/admin.php:0
+[26-Jun-2017 12:53:32 UTC] PHP Catchable fatal error:  Object of class PDO could not be converted to string in /home/ubuntu/workspace/adviser/model/admin_model.php on line 16
+[26-Jun-2017 12:53:32 UTC] PHP Stack trace:
+[26-Jun-2017 12:53:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/admin.php:0
+[26-Jun-2017 12:53:32 UTC] PHP   2. insert_users_table() /home/ubuntu/workspace/adviser/controller/admin.php:32
+[26-Jun-2017 12:53:38 UTC] PHP Catchable fatal error:  Object of class PDO could not be converted to string in /home/ubuntu/workspace/adviser/model/admin_model.php on line 16
+[26-Jun-2017 12:53:38 UTC] PHP Stack trace:
+[26-Jun-2017 12:53:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/admin.php:0
+[26-Jun-2017 12:53:38 UTC] PHP   2. insert_users_table() /home/ubuntu/workspace/adviser/controller/admin.php:32
+[26-Jun-2017 13:28:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 9
+[26-Jun-2017 13:28:35 UTC] PHP Stack trace:
+[26-Jun-2017 13:28:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/itemlist.php:0
+[26-Jun-2017 13:28:35 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/itemlist.php:65
+[26-Jun-2017 13:29:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 9
+[26-Jun-2017 13:29:35 UTC] PHP Stack trace:
+[26-Jun-2017 13:29:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/itemlist.php:0
+[26-Jun-2017 13:29:35 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/itemlist.php:65
+[26-Jun-2017 13:40:40 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/adviser/controller/admin.php on line 48
+[26-Jun-2017 14:02:58 UTC] PHP Warning:  move_uploaded_file(./img/fb8f54bc73923813040fe8eaa2eb7a035b186b76.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/model/common.php on line 136
+[26-Jun-2017 14:02:58 UTC] PHP Stack trace:
+[26-Jun-2017 14:02:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/admin.php:0
+[26-Jun-2017 14:02:58 UTC] PHP   2. upload_for_img() /home/ubuntu/workspace/adviser/controller/admin.php:28
+[26-Jun-2017 14:02:58 UTC] PHP   3. move_uploaded_file() /home/ubuntu/workspace/adviser/model/common.php:136
+[26-Jun-2017 14:02:58 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phprCmPSB' to './img/fb8f54bc73923813040fe8eaa2eb7a035b186b76.jpg' in /home/ubuntu/workspace/adviser/model/common.php on line 136
+[26-Jun-2017 14:02:58 UTC] PHP Stack trace:
+[26-Jun-2017 14:02:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/admin.php:0
+[26-Jun-2017 14:02:58 UTC] PHP   2. upload_for_img() /home/ubuntu/workspace/adviser/controller/admin.php:28
+[26-Jun-2017 14:02:58 UTC] PHP   3. move_uploaded_file() /home/ubuntu/workspace/adviser/model/common.php:136
+[26-Jun-2017 14:06:35 UTC] PHP Warning:  move_uploaded_file(./img/48e7132a4d7d018f8b897ad574af54499d4cdd0f.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/model/common.php on line 136
+[26-Jun-2017 14:06:35 UTC] PHP Stack trace:
+[26-Jun-2017 14:06:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/admin.php:0
+[26-Jun-2017 14:06:35 UTC] PHP   2. upload_for_img() /home/ubuntu/workspace/adviser/controller/admin.php:28
+[26-Jun-2017 14:06:35 UTC] PHP   3. move_uploaded_file() /home/ubuntu/workspace/adviser/model/common.php:136
+[26-Jun-2017 14:06:35 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php2g90w9' to './img/48e7132a4d7d018f8b897ad574af54499d4cdd0f.jpg' in /home/ubuntu/workspace/adviser/model/common.php on line 136
+[26-Jun-2017 14:06:35 UTC] PHP Stack trace:
+[26-Jun-2017 14:06:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/admin.php:0
+[26-Jun-2017 14:06:35 UTC] PHP   2. upload_for_img() /home/ubuntu/workspace/adviser/controller/admin.php:28
+[26-Jun-2017 14:06:35 UTC] PHP   3. move_uploaded_file() /home/ubuntu/workspace/adviser/model/common.php:136
+[27-Jun-2017 08:03:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/controller/admin.php on line 54
+[27-Jun-2017 08:03:30 UTC] PHP Stack trace:
+[27-Jun-2017 08:03:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/admin.php:0
+[27-Jun-2017 08:03:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/controller/admin.php on line 54
+[27-Jun-2017 08:03:42 UTC] PHP Stack trace:
+[27-Jun-2017 08:03:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/admin.php:0
+[27-Jun-2017 08:04:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/controller/admin.php on line 54
+[27-Jun-2017 08:04:39 UTC] PHP Stack trace:
+[27-Jun-2017 08:04:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/admin.php:0
+[27-Jun-2017 08:05:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/controller/admin.php on line 54
+[27-Jun-2017 08:05:25 UTC] PHP Stack trace:
+[27-Jun-2017 08:05:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/admin.php:0
+[28-Jun-2017 10:17:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 9
+[28-Jun-2017 10:17:57 UTC] PHP Stack trace:
+[28-Jun-2017 10:17:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/itemlist.php:0
+[28-Jun-2017 10:17:57 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/itemlist.php:65
+[28-Jun-2017 10:53:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 9
+[28-Jun-2017 10:53:15 UTC] PHP Stack trace:
+[28-Jun-2017 10:53:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/itemlist.php:0
+[28-Jun-2017 10:53:15 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/itemlist.php:65
+[28-Jun-2017 15:02:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/itemlist_view.php on line 9
+[28-Jun-2017 15:02:23 UTC] PHP Stack trace:
+[28-Jun-2017 15:02:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/itemlist.php:0
+[28-Jun-2017 15:02:23 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/itemlist.php:95
+[09-Jul-2017 13:37:17 UTC] PHP Warning:  require(common.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/buy.php on line 2
+[09-Jul-2017 13:37:17 UTC] PHP Stack trace:
+[09-Jul-2017 13:37:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/buy.php:0
+[09-Jul-2017 13:37:17 UTC] PHP Fatal error:  require(): Failed opening required 'common.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/buy.php on line 2
+[09-Jul-2017 13:37:17 UTC] PHP Stack trace:
+[09-Jul-2017 13:37:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/buy.php:0
+[09-Jul-2017 13:39:55 UTC] PHP Warning:  require(common.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/buy.php on line 2
+[09-Jul-2017 13:39:55 UTC] PHP Stack trace:
+[09-Jul-2017 13:39:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/buy.php:0
+[09-Jul-2017 13:39:55 UTC] PHP Fatal error:  require(): Failed opening required 'common.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/buy.php on line 2
+[09-Jul-2017 13:39:55 UTC] PHP Stack trace:
+[09-Jul-2017 13:39:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/buy.php:0
+[09-Jul-2017 13:39:58 UTC] PHP Warning:  require(common.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/buy.php on line 2
+[09-Jul-2017 13:39:58 UTC] PHP Stack trace:
+[09-Jul-2017 13:39:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/buy.php:0
+[09-Jul-2017 13:39:58 UTC] PHP Fatal error:  require(): Failed opening required 'common.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/buy.php on line 2
+[09-Jul-2017 13:39:58 UTC] PHP Stack trace:
+[09-Jul-2017 13:39:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/buy.php:0
+[09-Jul-2017 13:40:29 UTC] PHP Warning:  require(common.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/buy.php on line 2
+[09-Jul-2017 13:40:29 UTC] PHP Stack trace:
+[09-Jul-2017 13:40:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/buy.php:0
+[09-Jul-2017 13:40:29 UTC] PHP Fatal error:  require(): Failed opening required 'common.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/buy.php on line 2
+[09-Jul-2017 13:40:29 UTC] PHP Stack trace:
+[09-Jul-2017 13:40:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/buy.php:0
+[09-Jul-2017 13:40:33 UTC] PHP Warning:  require(common.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adviser/controller/buy.php on line 2
+[09-Jul-2017 13:40:33 UTC] PHP Stack trace:
+[09-Jul-2017 13:40:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/buy.php:0
+[09-Jul-2017 13:40:33 UTC] PHP Fatal error:  require(): Failed opening required 'common.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adviser/controller/buy.php on line 2
+[09-Jul-2017 13:40:33 UTC] PHP Stack trace:
+[09-Jul-2017 13:40:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/buy.php:0
+[09-Jul-2017 15:24:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/cart_view.php on line 12
+[09-Jul-2017 15:24:35 UTC] PHP Stack trace:
+[09-Jul-2017 15:24:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/cart.php:0
+[09-Jul-2017 15:24:35 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/cart.php:115
+[10-Jul-2017 12:37:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/adviser/view/cart_view.php on line 12
+[10-Jul-2017 12:37:30 UTC] PHP Stack trace:
+[10-Jul-2017 12:37:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/adviser/controller/cart.php:0
+[10-Jul-2017 12:37:30 UTC] PHP   2. include_once() /home/ubuntu/workspace/adviser/controller/cart.php:115
