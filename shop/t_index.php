@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Noodle Shop</title>
+
+<title>rental adviser </title>
 <link rel="stylesheet" href="shop.css">
 </head>
 <body>
-<h1>Noodle Shop</h1>
+<h1>rental adviser</h1>
+<?php var_dump($goods); ?>
 <table>
   <?php foreach ($goods as $g) { ?>
     <tr>
@@ -15,7 +16,7 @@
       </td>
       <td>
         <p class="goods"><?php echo $g['name'] ?></p>
-        <p><?php echo nl2br($g['comment']) ?></p>
+        <p><?php echo $g['comment'] ?></p>
       </td>
       <td width="80">
         <p><?php echo $g['price'] ?> 円</p>

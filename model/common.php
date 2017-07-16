@@ -1,12 +1,30 @@
 <?php
 
 // セッションの開始
-session_start();
+
 //################################################################//
 //各テーブルの処理
 //################################################################//
 
+  function connect() {
+    try {
+      // データベースに接続
+      $dbh = new PDO("mysql:dbname=rentaladviser", DB_USER, DB_PASSWD);
+      $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+      $dbh->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+    } catch (PDOException $e) {
+      echo '接続できませんでした。理由：'.$e->getMessage();
+    }
+    return $dbh;
+    
+    
+  }
 
+  function img_tag($code) {
+    if (file_exists(img_dir.$code)) $name = $code;
+    else $name = 'user.png';
+    return '<img src='.img_dir.$name. " width=80px".'>';
+  }
 //################################################################//
 //DBを利用する関数
 //################################################################//
@@ -129,7 +147,8 @@ function upload_for_img($err_msg){
       $extension = pathinfo($_FILES['new_img']['name'], PATHINFO_EXTENSION);
       // 指定の拡張子であるかどうかチェック
       $extension = strtolower($extension);
-      if ($extension === 'jpg' || $extension === 'jpeg' || $extension === 'png') {
+      if ($extension === 'jpg' || $extension === 'jpeg' || $extension === 'png'
+       || $extension === 'JPEG'  || $extension === 'PNG') {
         // 保存する新しいファイル名の生成（ユニークな値を設定する）
         $new_img_filename = sha1(uniqid(mt_rand(), true)). '.' . $extension;
         // 同名ファイルが存在するかどうかチェック

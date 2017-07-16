@@ -13,8 +13,7 @@ header('Content-Type: text/html; charset=UTF-8');
 // データベースの接続情報
 define('DB_USER',   'cocopa');    // MySQLのユーザ名
 define('DB_PASSWD', '');    // MySQLのパスワード
-define('DSN', 'mysql:dbname=camp;host=localhost;charset=utf8');  // データベースのDSN情報
-
+define('DSN', 'mysql:dbname=rentaladviser;host=localhost;charset=utf8');  // データベースのDSN情報
 define('TAX', 1.08);  // 消費税
 define('img_dir','./../img/');
 

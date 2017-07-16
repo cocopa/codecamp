@@ -15,8 +15,6 @@ function insert_users_table($dbh, $user, $password,$user_area,$user_category,$st
     $dbh->beginTransaction();
     try{
       // SQL生成
-      //$sql = 'INSERT INTO `users`(`user`, `password`, `user_area`, `user_category`,  `user_status`, `create_datetime`,`update_datetime`) VALUES (?,?,?,?,?,?,?)';
-      
       $sql = 'INSERT INTO `users`(`user`, `password`, `user_area`, `user_category`,  `user_status`, `created_at`,`updated_at`,`img`) VALUES (?,?,?,?,?,?,?,?)';
       // クエリ実行
       $stmt = $dbh->prepare($sql);

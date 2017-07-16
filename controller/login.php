@@ -10,26 +10,6 @@
     
     $request_method=get_request_method();
 
-
-
-
-
-
-
-   // セッションの開始
-    session_start();
-    // セッション変数の初期化
-    $_SESSION = array();
-    // セッションファイルの削除
-    session_destroy();
-    
-    
-    
-    
-    
-    
-    
-    
     if ($request_method === 'POST') {
         
         try {

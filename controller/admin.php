@@ -30,7 +30,7 @@
             //echo $user_id.$user.$password.$user_area;
             //バリデーション
             validate_name($user,'ユーザ名',$err_msg);
-            validate_name($user,'ユーザ名',$err_msg);
+           
             $tmp=upload_for_img($err_msg);
             $err_msg = $tmp['err_message'];
             if (count($err_msg) === 0 ){
@@ -38,6 +38,8 @@
                 
                 insert_users_table($dbh, $user, $password,$user_area,$user_category,$status,$update_date,$tmp['new_img_filename']);
                 $msg[] = $user."追加しましたよ。";
+                print '<p><a href="./../controller/login.php">ログインに戻る</a></p>';
+                
              }
             
             

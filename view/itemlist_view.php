@@ -3,25 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <title>商品一覧</title>
+  <p>
+    <?php
+      print $_SESSION["ID"].":".$_SESSION["NAME"]."さん。こんにちは";
+    ?>
+  </p>
+  <a href="./../controller/register.php">アドバイザー登録</a>
   <link rel="stylesheet" href="./../css/itemlist.css">
 </head>
 <body>
   <h1>商品一覧</h1>
-    <form method="post" enctype="multipart/form-data" action="./../controller/cart.php">
-        <?php foreach ($data as $value) { ?>
-            <ul>
-              <li>
-                <p><img src="<?php print img_dir.$value['img']; ?>"  width="200px"></p>
-                <p>ユーザ：<?php print $value['user']; ?></p>
-                <p>場所：<?php print $value['user_area']; ?></p>
-                <p><input type="radio" value=<?php print $value['id']; ?> name="id"/>選択</p>
-              </li>
-            </ul>
-        <?php } ?>
-        
-          <input type="hidden" name="code" value="<?php echo $value['id'] ?>">
+
+<table>
+  <?php foreach ($data as $value) { ?>
+    <tr>
+      <td>
+        <?php
+        //var_dump($value);
+        echo img_tag($value['img1']);
+        ?>
+      </td>
+      <td>
+        <p class="タイトル"><?php echo $value['title'] ?></p>
+        <p><?php echo nl2br($value['comment']) ?></p>
+      </td>
+      <td width="80px">
+        <p><?php echo $value['price'] ?> 円</p>
+        <form method="post" enctype="multipart/form-data" action="./../controller/cart.php">
+          <input type="hidden" name="id" value="<?php echo $value['id'] ?>">
+          <?php echo $value['id'] ?>
           <input type="submit" name="submit" value="カートへ">
-    </form>
+        </form>
+      </td>
+    </tr>
+  <?php } ?>
+</table> 
     
 </body>
+<foot><a href="logout.php">ログアウトする。</a></foot>
 </html>

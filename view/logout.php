@@ -4,7 +4,7 @@ session_start();
 if (isset($_SESSION["NAME"])) {
     $errorMessage = "ログアウトしました。";
 } else {
-    $errorMessage = "セッションがタイムアウトしました。";
+    $errorMessage = "もう一度ログインし直してください。";
 }
 
 // セッションの変数のクリア

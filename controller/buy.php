@@ -1,19 +1,44 @@
 <?php
-  require 'common.php';
-  $rows = array();
-  $sum = 0;
-  $pdo = connect();
-  if (!isset($_SESSION['cart'])) $_SESSION['cart'] = array();
-  if (@$_POST['submit']) {
-    @$_SESSION['cart'][$_POST['code']] += $_POST['num'];
-  }
-  foreach($_SESSION['cart'] as $code => $num) {
-    $st = $pdo->prepare("SELECT * FROM goods WHERE code=?");
-    $st->execute(array($code));
-    $row = $st->fetch();
-    $st->closeCursor();
-    $row['num'] = strip_tags($num);
-    $sum += $num * $row['price'];
-    $rows[] = $row;
-  }
-  require 't_cart.php';
+    // 設定ファイル読み込み
+    require_once './../conf/const.php';
+    // 関数ファイル読み込み
+    require_once './../model/common.php';
+    require_once './../model/admin_model.php';
+    $request_method=get_request_method();
+    $msg = [];
+    $err_msg = [];
+    
+    if ($request_method === 'POST') {
+        try {
+            
+             // POST値取得
+        
+            if (count($err_msg) === 0 ){
+                $dbh = get_db_connect();
+                
+                $msg[] = $user."購入しました。";
+             }
+            
+            
+            
+        
+        } catch (Exception $e) {
+          $err_msg[] = $e->getMessage();
+        }
+    }
+    
+    if ($msg !== [] ){
+        foreach ($msg as $value) {
+                  $value = htmlspecialchars($value, ENT_QUOTES, HTML_CHARACTER_SET);
+                  print $value."<br>"; 
+         }
+    }
+    if ($err_msg !== [] ){
+        foreach ($err_msg as $value) {
+                  $value = htmlspecialchars($value, ENT_QUOTES, HTML_CHARACTER_SET);
+                  print $value."<br>"; 
+         }
+    }
+    
+    
+    include_once './../controller/itemlist.php';
