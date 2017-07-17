@@ -1,4 +1,6 @@
 <?php
+    // 設定ファイル読み込み
+    require_once './../conf/const.php';
 session_start();
 
 if (isset($_SESSION["NAME"])) {
@@ -21,10 +23,8 @@ $_SESSION = array();
         <title>ログアウト</title>
     </head>
     <body>
-        <h1>ログアウト画面</h1>
+        <h1>ログアウトしましたので、再度ログインしてください。</h1>
         <div><?php echo htmlspecialchars($errorMessage, ENT_QUOTES); ?></div>
-        <ul>
-            <li><a href="./../controller/login.php">ログイン画面に戻る</a></li>
-        </ul>
+        <a href="./../controller/login.php">ログイン画面に戻る</a>
     </body>
 </html>

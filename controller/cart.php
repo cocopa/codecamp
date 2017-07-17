@@ -15,38 +15,18 @@
         try {
           // DB接続
             $dbh = get_db_connect();
-          
-          print $_POST['id'];
-          $user_id=$_SESSION["ID"]；
+            $title = get_post_data('title');
+            $price  = get_post_data('price');
+            $user_id = $_SESSION["ID"];
+          //print $_POST['id'];
+          //print $_SESSION["NAME"];
+          print "タイトル:".$title."をカートに入れました。"."<br>";
           if (isset($_POST['id']) === TRUE) {
             $item_id = $_POST['id'];
-            $item_id = $_POST['id'];
-            $sql = 'SELECT
-                       carts.user_id,
-                       carts.item_id,
-                       adviser.title
-                  FROM carts JOIN adviser
-                  ON carts.id = adviser.id
-                  WHERE carts.id = ?
-                  AND adviser.id = ?';
-                  
-                  
-            $stmt = $dbh->prepare($sql);
-            // SQL文のプレースホルダに値をバインド
-            $stmt->bindValue(1, $item_id,    PDO::PARAM_INT);
-            $stmt->bindValue(2, $user_id,    PDO::PARAM_INT);
-        
-            // SQLを実行
-            $stmt->execute();
-            // カート内のレコードの取得
-            $cart_list = $stmt->fetchAll();
-                
-              
-              
-              
-
-      
-            $sql =  'INSERT INTO carts (user_id, item_id, amount, create_datetime) 
+ 
+ 
+ 
+             $sql =  'INSERT INTO carts (`user_id`, `item_id`, `created_at`, `update_at`) 
                     VALUES (?, ?, ?, ?)';
             
             $stmt = $dbh->prepare($sql);
@@ -55,37 +35,61 @@
             $stmt->bindValue(3, $now_date,     PDO::PARAM_INT);
             $stmt->bindValue(4, $now_date,   PDO::PARAM_STR);
             
+            $stmt->execute(); 
+ 
+ 
+ 
+          
+ 
+ 
+ 
+ 
+ 
+ 
+            $sql = 'SELECT
+                      *
+                  FROM carts JOIN adviser
+                  ON carts.item_id = adviser.id
+                  WHERE carts.user_id = ?
+                  AND adviser.id = ?';
+                  
+                  
+            $stmt = $dbh->prepare($sql);
+            // SQL文のプレースホルダに値をバインド
+            
+            $stmt->bindValue(1, $user_id,    PDO::PARAM_INT);
+            $stmt->bindValue(2, $item_id,    PDO::PARAM_INT);
+            
+            // SQLを実行
             $stmt->execute();
+            // カート内のレコードの取得
+            $cart_list = $stmt->fetchAll();
+            var_dump($cart_list);    
+                
+                
+                
+                
+                
+            $sql = 'UPDATE `adviser` SET `status`=?,upload_at=? WHERE `id`=?';
+            // クエリ実行
+            $stmt = $dbh->prepare($sql);
+            $stmt->bindValue(1, "2",    PDO::PARAM_STR);
+            $stmt->bindValue(2, date("Y-m-d H:i:s"),    PDO::PARAM_STR);
+            $stmt->bindValue(3, $item_id,    PDO::PARAM_STR);
+            //SQLを実行
+            $stmt ->execute();
     
             
         }
         
-        // 公開商品のみ表示
-        $sql = 'SELECT 
-                    items.item_id,
-                    items.name,
-                    items.price,
-                    items.img,
-                    items.status,
-                    items.stock
-              FROM items
-              WHERE status = 1';
-                
-        // SQL文を実行する準備
-        $stmt = $dbh->prepare($sql);
-        
-        // SQLを実行
-        $stmt->execute();
-        
-        // レコードの取得
-        $item_list = $stmt->fetchAll();
+
                     
         //var_dump($item_list);
         
         if (isset($item_list) === FALSE) {
            
           }
-        var_dump($item_list);
+        
         } catch (Exception $e) {
           $err_msg[] = $e->getMessage();
         }

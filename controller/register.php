@@ -14,6 +14,23 @@
     if ($request_method === 'POST') {
         try {
             //バリデーション
+            /*
+              $dbh = get_db_connect();
+              $sql='SELECT * FROM `adviser` inner join users
+                                  on users.user = adviser.user' ;
+            // 商品の一覧を取得
+            $all_data = call_sql($dbh,$sql);
+            // 特殊文字をHTMLエンティティに変換
+            $all_data = entity_assoc_array($all_data);
+
+            var_dump($all_data);
+            */
+            
+            
+            
+            
+            
+            
             
              // POST値取得
             $id = get_post_data('user');
@@ -35,7 +52,7 @@
                 $dbh = get_db_connect();
                 insert_register_table($dbh, $id, $name, $price, $title, $comment, $area,
                 $category_id, $tmp['new_img_filename'], '', '', '', $status, $date,$schedule);
-                $msg[] = "編集しましたよ。";
+                $err_msg[] = "編集しましたよ。";
              }
             
             

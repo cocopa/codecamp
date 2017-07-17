@@ -8,7 +8,7 @@
       print $_SESSION["ID"].":".$_SESSION["NAME"]."さん。こんにちは";
     ?>
   </p>
-  <a href="./../controller/register.php">アドバイザー登録</a>
+  <a href="./../controller/register.php">あなたもアドバイザーとして登録しませんか？</a>
   <link rel="stylesheet" href="./../css/itemlist.css">
 </head>
 <body>
@@ -31,6 +31,8 @@
         <p><?php echo $value['price'] ?> 円</p>
         <form method="post" enctype="multipart/form-data" action="./../controller/cart.php">
           <input type="hidden" name="id" value="<?php echo $value['id'] ?>">
+          <input type="hidden" name="price" value="<?php echo $value['price'] ?>">
+          <input type="hidden" name="title" value="<?php echo $value['title'] ?>">
           <?php echo $value['id'] ?>
           <input type="submit" name="submit" value="カートへ">
         </form>

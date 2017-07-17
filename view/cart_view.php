@@ -13,12 +13,11 @@
 <body>
 <h1>カート</h1>
 <table>
-  <tr><th>商品名</th><th>単価</th><th>小計</th></tr>
+  <tr><th>商品名</th><th>単価</th></tr>
   <?php foreach($item_list as $r) { ?>
     <tr>
-      <td><?php echo $r['title'] ?></td>
-      <td><?php echo $r['price'] ?></td>
-      <td><?php echo $r['price'] ?> 円</td>
+      <td><?php echo $r['title']; ?></td>
+      <td><?php echo $r['price']; ?> 円</td>
     </tr>
   <?php } ?>
   <tr><td colspan='2'> </td><td><strong>合計</strong></td><td><?php echo $sum ?> 円</td></tr>

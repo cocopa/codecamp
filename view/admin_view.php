@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
-        <title>ログイン</title>
+        <title>新規登録</title>
         
         <link rel="stylesheet" href="./../css/admin.css">
         <!--<script type="text/javascript" src="js/adviser/login.js" charset="UTF-8"></script>-->

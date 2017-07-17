@@ -49,6 +49,7 @@
                     <input type="text" name="schedule" placeholder="スケジュール" id="schedule" />
                 </p>
                 <p>
+                    <input type="hidden" name="user" value="<?php print $_SESSION["NAME"]; ?>">
                     <button type="submit" class="button-blue" name="status" value=1>公開する</button>
                     <button type="submit" class="button-blue" name="status" value=2>非公開にする</button>
                     
