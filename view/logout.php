@@ -25,6 +25,9 @@ $_SESSION = array();
     <body>
         <h1>ログアウトしましたので、再度ログインしてください。</h1>
         <div><?php echo htmlspecialchars($errorMessage, ENT_QUOTES); ?></div>
-        <a href="./../controller/login.php">ログイン画面に戻る</a>
+        <hr>
+        <br>
+        <p><a class="btn btn-primary btn-lg" href="./../controller/login.php" role="button">ログイン画面に戻る</a></p>
+        
     </body>
 </html>

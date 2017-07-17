@@ -2,14 +2,14 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>商品一覧</title>
+  <title>アドバイザー一覧</title>
   <p>
     <?php
-      print $_SESSION["ID"].":".$_SESSION["NAME"]."さん。こんにちは";
+      //print $_SESSION["ID"].":".$_SESSION["NAME"]."さん。こんにちは";
     ?>
   </p>
-  <a href="./../controller/register.php">あなたもアドバイザーとして登録しませんか？</a>
-  <link rel="stylesheet" href="./../css/itemlist.css">
+  <!--<link rel="stylesheet" href="./../css/itemlist.css">-->
+  
 </head>
 <body>
   <h1>商品一覧</h1>
@@ -33,14 +33,20 @@
           <input type="hidden" name="id" value="<?php echo $value['id'] ?>">
           <input type="hidden" name="price" value="<?php echo $value['price'] ?>">
           <input type="hidden" name="title" value="<?php echo $value['title'] ?>">
-          <?php echo $value['id'] ?>
-          <input type="submit" name="submit" value="カートへ">
+          <button type="submit"  name="submit" class="btn btn-default">カートへ</button>
         </form>
       </td>
     </tr>
   <?php } ?>
 </table> 
+
+
+<hr>
+
+<p><a class="btn btn-primary btn-lg" href="./../controller/register.php" role="button">あなたもアドバイザーとして登録しませんか?</a></p>
+<br>
+<p><a class="btn btn-primary btn-lg" href="./../view/logout.php" role="button">ログインアウトする</a></p>
     
 </body>
-<foot><a href="logout.php">ログアウトする。</a></foot>
+
 </html>

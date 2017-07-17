@@ -50,13 +50,16 @@
                 </p>
                 <p>
                     <input type="hidden" name="user" value="<?php print $_SESSION["NAME"]; ?>">
-                    <button type="submit" class="button-blue" name="status" value=1>公開する</button>
-                    <button type="submit" class="button-blue" name="status" value=2>非公開にする</button>
-                    
+                    <button type="submit" class="btn btn-primary btn-lg" name="status" value=1>公開する</button>
+                    <button type="submit" class="btn btn-primary btn-lg" name="status" value=2>非公開にする</button>
+                    <a class="btn btn-primary btn-lg" href="./../controller/itemlist.php" role="button">お買い物に戻る</a>
                 </p>
+                <!--
                 <p>
                     <a href="./../controller/itemlist.php">お買い物に戻る</a>　
                 </p>
+                -->
             </form>
+            
     </body>
 </html>

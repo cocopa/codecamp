@@ -10,36 +10,46 @@
 * ユーザーを追加する
 *
 --------------------------------------------------**/
-function insert_register_table($dbh, $id, $name, $price, $title, $comment, $area, $category_id, $img1, $img2, $img3, $img4, $status, $date,$schedule) {
+function insert_register_table($dbh, $user, $name, $price, $title, $comment, $area, $category_id, $img1, $img2, $img3, $img4, $status, $date,$schedule) {
     
-    $dbh->beginTransaction();
-    try{
+    //$dbh->beginTransaction();
+    //try{
       // SQL生成
-      
-      $sql = 'INSERT INTO `adviser`(`id`, `name`, `price`, `title`, `comment`, `area`, `category_id`, `img1`, `img2`, `img3`, `img4`, `status`, `created_at`, `upload_at`,`schedule`) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)';
+      print $user."<br>";
+      print $name."<br>";
+      print $price."<br>";
+      print $title."<br>";
+      print $comment."<br>";
+      print $area."<br>";
+      print $category_id."<br>";
+      print $img1."<br>";
+      print $status."<br>";
+      print $schedule."<br>";
+
+
+      $sql = 'INSERT INTO `adviser`(`user`, `price`, `title`, `comment`, `area`, `category_id`, `img1`, `img2`, `img3`, `img4`, `status`, `created_at`, `upload_at`,`schedule`) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)';
       
       // クエリ実行
       
       $stmt = $dbh->prepare($sql);
-      $stmt->bindValue(1,  $id,       PDO::PARAM_STR);
-      $stmt->bindValue(2,  $name,     PDO::PARAM_STR);
-      $stmt->bindValue(3,  $price,    PDO::PARAM_STR);
-      $stmt->bindValue(4,  $title,    PDO::PARAM_STR);
-      $stmt->bindValue(5,  $comment,  PDO::PARAM_STR);
-      $stmt->bindValue(6,  $area,     PDO::PARAM_STR);
-      $stmt->bindValue(7,  $category_id,    PDO::PARAM_STR);
-      $stmt->bindValue(8,  $img1,    PDO::PARAM_STR);
-      $stmt->bindValue(9,  $img2,    PDO::PARAM_STR);
-      $stmt->bindValue(10, $img3,    PDO::PARAM_STR);
-      $stmt->bindValue(11, $img4,    PDO::PARAM_STR);
-      $stmt->bindValue(12, $status,  PDO::PARAM_STR);
+      $stmt->bindValue(1,  $user,     PDO::PARAM_STR);
+      $stmt->bindValue(2,  $price,    PDO::PARAM_STR);
+      $stmt->bindValue(3,  $title,    PDO::PARAM_STR);
+      $stmt->bindValue(4,  $comment,  PDO::PARAM_STR);
+      $stmt->bindValue(5,  $area,     PDO::PARAM_STR);
+      $stmt->bindValue(6,  $category_id,    PDO::PARAM_STR);
+      $stmt->bindValue(7,  $img1,    PDO::PARAM_STR);
+      $stmt->bindValue(8,  $img2,    PDO::PARAM_STR);
+      $stmt->bindValue(9, $img3,    PDO::PARAM_STR);
+      $stmt->bindValue(10, $img4,    PDO::PARAM_STR);
+      $stmt->bindValue(11, $status,  PDO::PARAM_STR);
+      $stmt->bindValue(12, $date,    PDO::PARAM_STR);
       $stmt->bindValue(13, $date,    PDO::PARAM_STR);
-      $stmt->bindValue(14, $date,    PDO::PARAM_STR);
-      $stmt->bindValue(15, $schedule,       PDO::PARAM_STR);
+      $stmt->bindValue(14, $schedule,       PDO::PARAM_STR);
        // SQLを実行
       $stmt->execute();
       //コミット
-      $dbh->commit();
+      /*$dbh->commit();
         
     }catch (PDOException $e) {
         // ロールバック処理
@@ -47,6 +57,7 @@ function insert_register_table($dbh, $id, $name, $price, $title, $comment, $area
         throw $e;
         
     }
+    */
 
 }
 

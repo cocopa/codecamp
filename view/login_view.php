@@ -26,9 +26,11 @@
     <div class="container">
       <div class="row">
         <div class="col-xs12">
+          <font color="#ffffff">
           <h1>レンタル　アドバイザー</h1>
           <p>教育をする方と教育を受けたい方をマッチング支援するサービス</p>
           <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
+          </font>
         </div>
       </div>
     </div>
@@ -50,11 +52,25 @@
     <div class="row">
       <div class="col-lg-4 col-md-4 col-sm-6">
         <div class="media">
-          <div class="media-left"> <a href="#"> <img class="media-object" src="./../icon/user.png" alt="..."> </a> </div>
+          <div class="media-left"> <a href="#"> <img class="media-object" src="./../icon/user.png" alt="..." width=40> </a> </div>
           <div class="media-body">
-            <h2 class="media-heading">例えば</h2>
-            定年で時間に余裕がある人（アドバイザー）</div>
+            <h3 class="media-heading">アドバイザーとは</h3>
+            <p>定年で時間に余裕がある人</p>
+            <p>仕事の広報活動</p>
+            </div>
+            
         </div>
+      
+        <div class="media">
+          <div class="media-left"> <a href="#"> <img class="media-object" src="./../icon/user.png" alt="..." width=40> </a> </div>
+          <div class="media-body">
+            <h3 class="media-heading">オーディエンスとは</h3>
+            <p>定年で時間に余裕がある人</p>
+            <p>新しい仕事趣味</p>
+            <p>スタートアップに挑戦したい方</p>
+            </div>
+        </div>
+      
       </div>
       </div>
     </div>
@@ -81,12 +97,12 @@
                   <input type="checkbox" name="cookie_check" value=1>次回からユーザ名の入力を省略
                 </p>
                   <p>
-                  <button type="submit" class="btn btn-success" name="form_type" value="./../controller/itemlist.php">ログイン</button>
+                  <button type="submit" class="btn btn-primary btn-lg" name="form_type" value="./../controller/itemlist.php">ログイン</button>
                   </p>
                 </form>
                 <form action="./../controller/admin.php" method="post" class="media-body">
                   <p>
-                    <button type="submit" class="btn btn-success" name="form_type" value="./../controller/admin.php">新規登録</button>
+                    <button type="submit" class="btn btn-primary btn-lg" name="form_type" value="./../controller/admin.php">新規登録</button>
                   </p>
                 </form>
       </div>

@@ -20,32 +20,54 @@
             $user_id = $_SESSION["ID"];
           //print $_POST['id'];
           //print $_SESSION["NAME"];
-          print "タイトル:".$title."をカートに入れました。"."<br>";
+          
           if (isset($_POST['id']) === TRUE) {
-            $item_id = $_POST['id'];
- 
- 
- 
-             $sql =  'INSERT INTO carts (`user_id`, `item_id`, `created_at`, `update_at`) 
-                    VALUES (?, ?, ?, ?)';
             
+            $item_id = $_POST['id'];
+            $sql = 'SELECT
+                      *
+                  FROM carts JOIN adviser
+                  ON carts.item_id = adviser.id
+                  WHERE carts.user_id = ?
+                  AND adviser.id = ?';
+            $stmt = $dbh->prepare($sql);
+            // SQL文のプレースホルダに値をバインド
+            $stmt->bindValue(1, $user_id,    PDO::PARAM_INT);
+            $stmt->bindValue(2, $item_id,    PDO::PARAM_INT);
+            
+            // SQLを実行
+            $stmt->execute();
+            // カート内のレコードの取得
+            $list = $stmt->fetchAll();
+
+            $same_item="";
+            foreach($list as $r) {
+              if ($r['item_id'] == ""){
+                $same_item = $r['item_id']."があります。<br>";
+                print $same_item;
+              }
+            }
+      
+      
+            
+            
+            print "タイトル:".$title."をカートに入れました。"."<br>";
+            
+ 
+ 
+ 
+            $sql =  'INSERT INTO carts (`user_id`, `item_id`, `created_at`, `update_at`) 
+                    VALUES (?, ?, ?, ?)';
             $stmt = $dbh->prepare($sql);
             $stmt->bindValue(1, $user_id,    PDO::PARAM_INT);
             $stmt->bindValue(2, $item_id,    PDO::PARAM_INT);
             $stmt->bindValue(3, $now_date,     PDO::PARAM_INT);
             $stmt->bindValue(4, $now_date,   PDO::PARAM_STR);
-            
             $stmt->execute(); 
- 
- 
- 
-          
- 
- 
- 
- 
- 
- 
+            
+            
+            
+            
             $sql = 'SELECT
                       *
                   FROM carts JOIN adviser
@@ -56,7 +78,6 @@
                   
             $stmt = $dbh->prepare($sql);
             // SQL文のプレースホルダに値をバインド
-            
             $stmt->bindValue(1, $user_id,    PDO::PARAM_INT);
             $stmt->bindValue(2, $item_id,    PDO::PARAM_INT);
             
@@ -64,7 +85,7 @@
             $stmt->execute();
             // カート内のレコードの取得
             $cart_list = $stmt->fetchAll();
-            var_dump($cart_list);    
+            
                 
                 
                 
@@ -82,19 +103,23 @@
             
         }
         
-
-                    
-        //var_dump($item_list);
-        
-        if (isset($item_list) === FALSE) {
-           
-          }
-        
+          
         } catch (Exception $e) {
           $err_msg[] = $e->getMessage();
         }
 
+    }else{
+        $user_id = $_SESSION["ID"];
+        print $user_id;
+        $dbh = get_db_connect();
+          $sql = 'DELETE FROM `carts` WHERE `user_id`=?';
+          $stmt = $dbh->prepare($sql);
+          $stmt->bindValue(1,$user_id,PDO::PARAM_STR);
+          $stmt ->execute();  
+          
+
+          print "カートの中身を消去しました。";
     }
   
-  
   include_once './../view/cart_view.php';
+  
