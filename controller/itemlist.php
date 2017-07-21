@@ -65,7 +65,7 @@
 
             if (isset($err_msg) === TRUE){
               foreach ($err_msg as $value) {
-                print $value."<br>";
+                print "<h2>".$value."</h2>";
                 require './../view/logout.php';
                 exit;
                }

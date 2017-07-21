@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+<style type="text/css">
+.jumbotron { background:url("./../icon/office.png") center no-repeat; background-size: cover;}
+</style>
+</head>
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rental Adviser</title>
+
+
+<body class="panel-body">
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Rental Adviser</a> </div>
+  </div>
+  <!-- /.container-fluid --> 
+</nav>
+<head>
   <meta charset="UTF-8">
   <title>アドバイザー一覧</title>
   <p>
@@ -8,11 +29,10 @@
       //print $_SESSION["ID"].":".$_SESSION["NAME"]."さん。こんにちは";
     ?>
   </p>
-  <!--<link rel="stylesheet" href="./../css/itemlist.css">-->
-  
+ 
 </head>
 <body>
-  <h1>商品一覧</h1>
+  <div class="panel panel-info"><h1>アドバイザー一覧</h1></div>
 
 <table>
   <?php foreach ($data as $value) { ?>
@@ -24,7 +44,7 @@
         ?>
       </td>
       <td>
-        <p class="タイトル"><?php echo $value['title'] ?></p>
+        <p class="lead"><?php echo $value['title'] ?></p>
         <p><?php echo nl2br($value['comment']) ?></p>
       </td>
       <td width="80px">
@@ -42,6 +62,17 @@
 
 
 <hr>
+
+<h2>【アドバイザー募集！】 </h2>
+
+<h3>アドバイザーとは</h3>
+
+
+<ul class="list-group">
+  <li class="list-group-item">教えるのが好きな人</li>
+  <li class="list-group-item">仕事の広報活動したい</li>
+  <li class="list-group-item">定年で時間に余裕がある人</li>
+</ul>
 
 <p><a class="btn btn-primary btn-lg" href="./../controller/register.php" role="button">あなたもアドバイザーとして登録しませんか?</a></p>
 <br>

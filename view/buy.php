@@ -9,7 +9,7 @@
         <div><?php echo htmlspecialchars($errorMessage, ENT_QUOTES); ?></div>
         <hr>
         <br>
-        <p><a class="btn btn-primary btn-lg" href="./../controller/cart.php" role="button">ログイン画面に戻る</a></p>
+        <p><a class="btn btn-primary btn-lg" href="./../controller/itemlist.php" role="button">アイテム一覧に戻る</a></p>
         
     </body>
 </html>

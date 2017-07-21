@@ -110,7 +110,7 @@
   </div>
 </section>
 <hr>
-
+ <p id="pageTop"><a href="#"><i class="fa fa-chevron-up"></i></a></p>
   <footer class="text-center">
   <div class="container">
     <div class="row">

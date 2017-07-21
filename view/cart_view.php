@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html>
 <head>
 <meta charset="utf-8">
 <title>カートの中身</title>
@@ -11,7 +9,8 @@
 <link rel="stylesheet" href="shop.css">
 </head>
 <body>
-<h1>カート</h1>
+<hr>
+<h1>カートの中身</h1>
 <table>
   
   <?php $sum=0; ?>

@@ -15,16 +15,7 @@ function insert_register_table($dbh, $user, $name, $price, $title, $comment, $ar
     //$dbh->beginTransaction();
     //try{
       // SQL生成
-      print $user."<br>";
-      print $name."<br>";
-      print $price."<br>";
-      print $title."<br>";
-      print $comment."<br>";
-      print $area."<br>";
-      print $category_id."<br>";
-      print $img1."<br>";
-      print $status."<br>";
-      print $schedule."<br>";
+
 
 
       $sql = 'INSERT INTO `adviser`(`user`, `price`, `title`, `comment`, `area`, `category_id`, `img1`, `img2`, `img3`, `img4`, `status`, `created_at`, `upload_at`,`schedule`) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)';

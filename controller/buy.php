@@ -1,14 +1,21 @@
 <?php
     // 設定ファイル読み込み
-    require_once './../conf/const.php';
+     require_once './../conf/const.php';
     // 関数ファイル読み込み
     require_once './../model/common.php';
+    session_start();
+    $user_id = $_SESSION["ID"];
     $request_method=get_request_method();
     $msg = [];
     $err_msg = [];
     if ($request_method === 'GET') {
         try {
-           $user_id = $_SESSION["ID"];
+          
+          $dbh = get_db_connect();
+          $sql = 'DELETE FROM `carts` WHERE `user_id`=?';
+          $stmt = $dbh->prepare($sql);
+          $stmt->bindValue(1,$user_id,PDO::PARAM_STR);
+          $stmt ->execute();  
           
            /*
            $sql = 'UPDATE `adviser` SET `status`=?,upload_at=? WHERE `id`=?';

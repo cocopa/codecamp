@@ -1,3 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<style type="text/css">
+.jumbotron { background:url("./../icon/office.png") center no-repeat; background-size: cover;}
+</style>
+</head>
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rental Adviser</title>
+
+
+<body>
+
+
 <?php
     // 設定ファイル読み込み
     require_once './../conf/const.php';
@@ -16,12 +34,8 @@ $_SESSION = array();
 @session_destroy();
 ?>
 
-<!doctype html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>ログアウト</title>
-    </head>
+
+
     <body>
         <h1>ログアウトしましたので、再度ログインしてください。</h1>
         <div><?php echo htmlspecialchars($errorMessage, ENT_QUOTES); ?></div>

@@ -1,3 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<style type="text/css">
+.jumbotron { background:url("./../icon/office.png") center no-repeat; background-size: cover;}
+</style>
+</head>
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rental Adviser</title>
+
+
+<body>
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Rental Adviser</a> </div>
+  </div>
+
+</nav>
+
 <?php
      // 設定ファイル読み込み
     require_once './../conf/const.php';
@@ -24,6 +48,7 @@
           if (isset($_POST['id']) === TRUE) {
             
             $item_id = $_POST['id'];
+            /*
             $sql = 'SELECT
                       *
                   FROM carts JOIN adviser
@@ -47,11 +72,11 @@
                 print $same_item;
               }
             }
-      
+            */
       
             
             
-            print "タイトル:".$title."をカートに入れました。"."<br>";
+            print "<h3>タイトル:".$title."をカートに入れました。"."<br></h3>";
             
  
  
@@ -72,8 +97,7 @@
                       *
                   FROM carts JOIN adviser
                   ON carts.item_id = adviser.id
-                  WHERE carts.user_id = ?
-                  AND adviser.id = ?';
+                  WHERE carts.user_id = ?';
                   
                   
             $stmt = $dbh->prepare($sql);
@@ -118,7 +142,7 @@
           $stmt ->execute();  
           
 
-          print "カートの中身を消去しました。";
+          print "<h3>カートの中身を消去しました。</h3>";
     }
   
   include_once './../view/cart_view.php';

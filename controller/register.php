@@ -50,7 +50,7 @@
             $tmp=upload_for_img($err_msg);
             $err_msg = $tmp['err_message'];
             if (count($err_msg) === 0 ){
-                print count($err_msg)."<br>";
+                //print count($err_msg)."<br>";
                 $dbh = get_db_connect();
                 insert_register_table($dbh, $user, $name, $price, $title, $comment, $area,
                 $category_id, $tmp['new_img_filename'], '', '', '', $status, $date,$schedule);

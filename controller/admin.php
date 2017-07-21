@@ -37,8 +37,7 @@
                 $dbh = get_db_connect();
                 
                 insert_users_table($dbh, $user, $password,$user_area,$user_category,$status,$update_date,$tmp['new_img_filename']);
-                $msg[] = $user."追加しましたよ。";
-                print '<p><a href="./../controller/login.php">ログインに戻る</a></p>';
+                print "<h2>".$user."追加しました</h2>";
                 
              }
             

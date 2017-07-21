@@ -36,9 +36,11 @@
                   <option value="4">プログラマー</option>
                 </select>
                 <p>
-                    <button type="submit" class="button-blue" name="form_type" value="./../controller/admin.php">登録</button>
+                    <button type="submit" class="btn btn-primary btn-lg" name="form_type" value="./../controller/admin.php">登録</button>
                 </p>
-                
+
+                <p><a class="btn btn-primary btn-lg" href="./../controller/login.php" role="button">戻る</a></p>
+  
             </form>
     </body>
 </html>
